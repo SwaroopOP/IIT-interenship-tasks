@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Course</title>
+</head>
+<body>
+    <h1>Add a New Course</h1>
+    <form action="/add-course" method="post">
+        <label for="title">Course Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="code">Course Code:</label>
+        <input type="text" id="code" name="code" required><br><br>
+
+        <label for="description">Course Description:</label>
+        <textarea id="description" name="description" rows="4" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
